@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LinearSearch from './Components/LinearSearch';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LinearSearch />
   </React.StrictMode>,
   document.getElementById('root')
 );
