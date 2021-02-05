@@ -1,13 +1,17 @@
+import React, { Component } from 'react'
+
+export default class LinearSearch extends Component {
+    render() {
 
 
-function LinearSearch() {
-    return (
+        let a = "test";
 
-        <div>
-yes
+        console.log("learning react + algorithms" + a);
 
-        </div>
-    );
+        return (
+            <div>
+
+            </div>
+        )
+    }
 }
-
-export default LinearSearch;
