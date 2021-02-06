@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import BinarySearch from './Components/BinarySearch';
+import BinarySearchFreq from './Components/BinarySearchFreq';
 
 ReactDOM.render(
   <React.StrictMode>
   
-    <BinarySearch/>
+    <BinarySearchFreq/>
   </React.StrictMode>,
   document.getElementById('root')
 );
