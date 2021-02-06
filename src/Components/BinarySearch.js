@@ -24,6 +24,7 @@ export default class BinarySearch extends Component {
 let a = function binarySearch() {
     let array = [1, 2, 3, 4, 5, 6, 7, 8, 1231, 2123123];
     let elementToFind = 1231;
+    console.log(array);
     console.log(binarySearchRecursiveMethod(array, elementToFind, 0, array.length - 1));
 
 }
