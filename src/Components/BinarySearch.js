@@ -74,4 +74,8 @@ function binarySearchRecursiveMethod(array, elementToFind, left, right) {
     return -1;
 }
 
+/**
+ * O(1) in case of iterative implementation. In case of recursive implementation, O(Logn) recursion call stack space.
+ */
+
 
